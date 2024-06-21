@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0px;
+  padding: 10px;
+  background: #fff;
+  flex-grow: 5;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.card-block {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*real time*/
+#real-time li {
+  font-size: 1.8rem;
+  font-weight: 300;
+  border-bottom: 0.1rem solid #e5e9ec;
+  padding: 0.5rem 0;
+}
+
+#real-time .badge.ok {
+  background-color: #1bc98e;
+}
+
+#real-time .badge span,
+#real-time .label {
+  color: #fff;
+}
+
+#real-time .badge,
+#real-time .label {
+  margin-top: 0.25rem;
+}
+
+.progress-bar {
+  line-height: 20px;
+}

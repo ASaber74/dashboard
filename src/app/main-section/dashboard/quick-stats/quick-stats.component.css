@@ -1,0 +1,43 @@
+.card-stats {
+  position: relative;
+  border-radius: 0.25em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  background-color: #fff;
+  flex-grow: 5;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.card * {
+  color: #252830;
+}
+
+.card-block {
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+.card-block h2 {
+  margin-bottom: 1.5rem;
+  color: #252830;
+}
+#quick-info .card-block {
+  display: flex;
+  flex-direction: column;
+}
+
+#quick-info .quick-stats {
+  font-size: 2rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid #e5e9ec;
+}
+
+#quick-info .quick-stats strong {
+  font-weight: 300;
+}
+
+#quick-info .quick-stats span {
+  font-weight: 300;
+  float: right;
+  color: #8b91a0;
+}

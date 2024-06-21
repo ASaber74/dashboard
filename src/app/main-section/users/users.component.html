@@ -1,0 +1,64 @@
+<div id="main" class="col-sm-offset-3 col-sm-9">
+  <jqxGrid
+    #myGrid
+    class="grid"
+    [width]="getWidth()"
+    [source]="dataAdapter"
+    [columns]="columns"
+    [autoheight]="true"
+    [pageable]="true"
+    [altrows]="true"
+    [enabletooltips]="true"
+    [editable]="true"
+    [filterable]="true"
+    [selectionmode]="'multiplecellsadvanced'"
+    [sortable]="true"
+    [columngroups]="columngroups"
+    [columnsresize]="true"
+    class="jqx-grid"
+  ></jqxGrid>
+  <jqxWindow
+    #myWindow
+    [width]="300"
+    [height]="200"
+    [resizable]="true"
+    [isModal]="false"
+    [autoOpen]="false"
+    [modalOpacity]="'0.01'"
+  >
+    <div>Edit</div>
+    <div style="overflow: hidden">
+      <table style="margin: 0 auto; margin-top: 1.5rem">
+        <tr>
+          <td align="right">Name:</td>
+          <td align="left">
+            <jqxInput #name [width]="150" [height]="23"></jqxInput>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">Address:</td>
+          <td align="left">
+            <jqxInput #address [width]="150" [height]="23"></jqxInput>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">Email:</td>
+          <td align="left">
+            <jqxInput #email [width]="150" [height]="23"></jqxInput>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"></td>
+          <td style="padding-top: 10px" align="right">
+            <jqxButton style="margin-right: 5px" (onClick)="saveBtn()">
+              Save
+            </jqxButton>
+            <jqxButton style="margin-right: 5px" (onClick)="cancelBtn()">
+              Cancel
+            </jqxButton>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </jqxWindow>
+</div>

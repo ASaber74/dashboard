@@ -1,0 +1,25 @@
+.first-chart {
+  /* min-width: 350px; */
+  min-width: 350px;
+  max-height: 350px;
+}
+.second-chart {
+  /* min-width: 350px; */
+  min-width: 350px;
+  max-height: 350px;
+}
+
+.container-pie {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  overflow: hidden;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0px;
+  padding: 10px;
+  background: #fff;
+}

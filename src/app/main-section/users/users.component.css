@@ -1,0 +1,15 @@
+#main {
+  padding-top: 7.2rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+jqxGrid {
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+
+

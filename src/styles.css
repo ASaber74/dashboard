@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  position: relative;
+  height: 100%;
+  background-color: #e5e9ec;
+}
+
+#main {
+  padding-top: 7.2rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.card {
+  position: relative;
+  border-radius: 0.25em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  background-color: #FFF;
+  margin: 1.25rem;
+  flex-grow: 5;
+}
+
+.card * {
+  color: #252830;
+}
+
+.card-block {
+  padding: 2rem;
+}
+
+.card-block h2 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: #252830;
+}
