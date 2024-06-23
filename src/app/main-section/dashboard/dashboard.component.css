@@ -17,4 +17,5 @@
 
 .gridster gridster-item {
   background-color: transparent;
+  height: auto;
 }

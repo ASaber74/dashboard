@@ -25,11 +25,15 @@ export class DashboardComponent {
       scrollVertical: true,
       margin: 5,
       minCols: 13,
-      maxCols: 13,
       minRows: 10,
+      minItemRows:3,
+      minItemCols: 6,
       fixedRowHeight: 120,
       fixedColWidth: 120,
-      setGridSize: true,
+      mobileBreakpoint: 640,
+      rowHeightRatio: 3,
+      setGridSize: false,
+      pushItems: true,
       swap: true,
       draggable: {
         enabled: true,
@@ -38,6 +42,5 @@ export class DashboardComponent {
         enabled: true,
       },
     };
-
   }
 }

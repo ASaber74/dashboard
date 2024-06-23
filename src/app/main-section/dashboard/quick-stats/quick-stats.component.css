@@ -1,11 +1,11 @@
-.card-stats {
+.card {
   position: relative;
   border-radius: 0.25em;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
   background-color: #fff;
   flex-grow: 5;
-  min-width: 350px;
-  min-height: 350px;
+  /* min-width: 350px;
+  min-height: 350px; */
 }
 
 .card * {

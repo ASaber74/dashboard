@@ -4,13 +4,6 @@ import { jqxGridComponent } from 'jqwidgets-ng/jqxgrid';
 import { jqxWindowComponent } from 'jqwidgets-ng/jqxwindow';
 import { jqxInputComponent } from 'jqwidgets-ng/jqxinput';
 
-// import { jqxGridComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxgrid.ts';
-// // import { jqxInputComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxinput.ts';
-// // import { jqxNumberInputComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxnumberinput.ts';
-// import { jqxWindowComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxwindow.ts';
-
-// node_modules\jqwidgets-ng\jqxgrid\angular_jqxgrid.d.ts
-
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
